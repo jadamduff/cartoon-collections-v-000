@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.map do |val|
-    val = "#{val.upcase}!"
+    "#{val.upcase}!"
   end
   return array
 end
